@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    //Write a function called add7 that takes one number and returns that number + 7.//
+let addSeven = (Number) => Number+7;
+
+    console.log(addSeven(1000))
+    //Write a function called multiply that takes 2 numbers and returns their product.//
+let multiply = (number1, number2) => number1*number2;
+
+    console.log(multiply(10,5));
+
+
+    //Write a function called capitalize that takes a string
+    //and returns that string with only the first letter capitalized. 
+    //Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.//
+    normalize = (string) => 
+    string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+
+    console.log(normalize("FIRST LETTER CAPITALIZED."));
+    console.log(normalize("can take lowercase."));
+    console.log(normalize("oR BoTH uPpeRcAse aNd LowERCasE."));
+
+
+    //Write a function called lastLetter that takes a string and returns the very last letter of that string
+    // lastLetter("abcd") should return "d"
+    lastLetter = (str) =>
+    str.slice(-1).toUpperCase();
+    console.log(lastLetter("abcd"));
+
+  </script>
+</body>
+</html>
